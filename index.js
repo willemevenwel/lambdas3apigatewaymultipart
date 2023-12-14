@@ -133,6 +133,7 @@ exports.handler = async (event) => {
                           Bucket: bucketName,
                           Key: veryUniqueKey,
                           Body: file.file,
+                          ContentType: file.mimetype,
                           Tagging: tag
                       };
               
