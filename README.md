@@ -10,3 +10,5 @@ Give the lambda a role/policy to access the S3 bucket (perhaps only this bucket 
 Create a API gateway, which invokes the lambda.
 
 Give the API gateway a role/policy to execute the lambda.
+
+In test.html remember to edit the line '{your api gateway url along with the endpoint which invokes lambda}'.
