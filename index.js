@@ -1,10 +1,10 @@
 const { S3Client, PutObjectCommand } = require("@aws-sdk/client-s3");
 const Busboy = require('busboy');
 
-const bucketName = "wte-testbucket";
+const bucketName = "{your bucket}";
 const region = "eu-west-1";
 
-const loggerKey = 'wteFileUploadToS3ViaAPIGatewayAndLambda';
+const loggerKey = '{your unique logger identifier to make logs easier to read}';
 
 const s3Client = new S3Client({ region: region });
 
