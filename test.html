@@ -1,0 +1,23 @@
+<html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+        <form action="{your api gateway url along with the endpoint which invokes lambda}" method="post" enctype="multipart/form-data">
+            <label for="reference">ID:</label><br>
+            <input type="text" id="reference" name="reference"><br>
+            <label for="owner">Owner:</label><br>
+            <input type="text" id="owner" name="owner"><br>
+            <label for="recipient">Recipient:</label><br>
+            <input type="text" id="recipient" name="recipient"><br>
+            <label for="file">File:</label><br>
+            <input type="file" id="file" name="file" multiple><br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+
+</html>
