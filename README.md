@@ -19,4 +19,6 @@ Create a API gateway, which invokes the lambda.
 
 Give the API gateway a role/policy to execute the lambda.
 
+If you opt to go for REST API Gateway then you need to allow multipart/form-data as a Binary media type: https://harishkm.in/2020/08/26/posting-binary-or-multipart-form-data-to-an-api-in-amazon-api-gateway/
+
 In test.html remember to edit the line '{your api gateway url along with the endpoint which invokes lambda}'.
